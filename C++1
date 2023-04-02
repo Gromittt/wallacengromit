@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string> //문자열 크기 제한 X//
 using namespace std; //앞으로 코드에서 std::생략//
 
 int main()
