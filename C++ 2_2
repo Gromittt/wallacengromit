@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+
+    int seat[10][6] = { };
+    int a, width, length, new_length, new_width; //width=가로, length=세로
+
+    do {
+        cout << "** 비행기 좌석 예약 시스템 **" << endl;
+        cout << "\n1. 신규 예약" << endl;
+        cout << "2. 예약 변경" << endl;
+        cout << "3. 프로그램 종료" << endl << endl;
+        cout << "번호를 입력하세요: ";
+        cin >> a;
+        cout << endl;
+    } while (a != 3);
+
+    if (a==1) {
+        cout << endl;
+        cout << "1 2 3" << "\t" << "4 5 6" << endl;
+        cout << "-------------" << endl;
+        int seat[10][6] = { };
+
+        for (length=1; length<11;length++) {
+            cout << length + 1 << " ";
